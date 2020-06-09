@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* 메인배너 */
+.content{clear:both; width: 100%; height: 1100px;}
+.content .fi{width: 1400px; margin: 0 auto; overflow: hidden;} 
+.content .fi .vanner{width: 400%;  }
+.content .fi .vanner li{float:left; width: 25%; }
+
+
+
+/* 메인아이템 1*/
+.item_wrap{width: 1400px; margin: 0 auto;}
+.item{float:left; ;}
+.item li{margin-left: 20px;}
+.sec4 .item li{float:left: 20px;} 
+.item2{clear:both;}
+.item2 li{display:block; float:left; margin-left: 20px;}
+
+

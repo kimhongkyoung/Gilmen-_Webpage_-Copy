@@ -1,0 +1,70 @@
+@charset "utf-8";
+    /* 초기화 */
+    *{margin: 0; padding: 0;}
+    html,body{width: 100%;}
+    a{text-decoration: none;}
+    ul{list-style: none;}
+    
+    /* 헤더탑 */
+    .wrap{width: 100%;clear:both;}
+    .wrap .hd{width: 100%;}
+    .wrap .hd .hd_twrap{width: 100%; border-bottom: 1px solid gray; height:130px;}
+    .tnb{width: 1400px; margin: 0 auto; position: relative; margin-top: 50px;}
+    .tnb .tnb_left_menu li { float:left; margin-top: 80px; }
+    .tnb .tnb_left_menu li a{font-size:15px; color: #222;} 
+    .tnb .tnb_left_menu li a::after{content:"|"; margin-right: 5px;}
+    .tnb .logo{float:left; width: 350px; margin-left: 120px; }
+    .tnb .tnb_right_menu li{float:right; margin-right: 90px;margin-top: 60px;}
+    .tnb .tnb_right_menu li p{display:block;}
+    .tnb .tnb_right_menu li a{float:left; margin-left: 5px;}
+    .tnb .tnb_right_menu li span a{margin-left: 5px; background-color: #222; color: #fff; float:left; font-size: 15px; height: 25px;line-height: 20px;}
+    .tnb .tnb_consult{position:absolute; right:0; top:0; }
+    
+    /* 헤더바텀 */
+    .hd_bwrap_nav{clear:both; width: 100%; border-bottom: 1px solid gray; height: 30px; line-height: 10px;}
+    .gnb_menu{width: 1400px; margin: 0 auto; margin-top: 20px;}
+    .gnb_menu li{float:left; width: 350px; display:block; text-align: center;}
+    .gnb_menu li a{font-size: 20px; color: #222; font-weight: 700;}
+    .hd_bwrap_nav .gnb_menu li:hover ~.hd_sub_wrap dl{display:block;}
+    
+    
+    
+    /* 헤더바텀서브 */
+    .hd_sub_wrap{width: 100%; position: relative;}
+    .hd_sub_wrap .sub{width:1400px;   margin: 0 auto;  position:absolute; left:50px; z-index:999; }
+    .hd_sub_wrap{display:none;}
+    .hd_bwrap_nav:hover ~ .hd_sub_wrap {display:block;}
+    .hd_sub_wrap:hover { display:block; }
+    .sub .sub_menu_dl { float:left; width: 350px; text-align: center; background-color:darkorange;}
+    .sub .sub_menu_dl a{color:#fff;}
+    .gnb_menu:hover .sub .sub_menu{display:block;}
+    .gnb_menu li:hover .aa{color: deeppink;}  
+    /* none-block 선택자 같아야하고 , 형제 선택자 필요  */
+
+    
+    /* 푸터탑 */
+.ft{clear:both;width: 100%;}
+.ft .ft_wrap1{width: 100%; background-color:#2222; height: 430px; ;}
+.ft .ft_wrap1 .ftt{display:block; display:block; text-align: center; margin: 0 0 30px 0;}
+.ft .ft_wrap1 .ft_fi{width: 1400px; margin: 0 auto;}
+.ft_fi .ftt_ul{text-align: left;}
+.ft_fi .ftt_ul li{float:left; width: 216px; margin-left: 20px auto; padding-bottom: 30px; }
+
+
+/* 푸터바텀 */
+.ft_wrap2{clear:both; width: 100%; height: 90px;}
+.ft_wrap2 .ftb{width: 1100px; margin: 0 auto; position: relative; margin-top: 10px; }
+.ft_wrap2 .ftb .ft_logo {float:left;}
+.ft_wrap2 .ftb .ft_menu{float:left; margin-left: 50px; }
+.ft_wrap2 .ftb .ft_menu ul li{display:inline; }
+.ft_wrap2 .ftb .ft_menu ul li a{color: black;}
+.ft_wrap2 .ftb .company_info p{ display:block; float:left; }
+
+
+/* 카카오 팝업 */
+#pop{display:none; position:fixed; top:0; right:0; z-index:999;}
+.contents{clear:both; width: 200px;  position:absolute; right:0; top:50px; z-index:999; font-size: 14px;margin-top: 10px;}
+.pop1  a img{ width: 220px; position: absolute; right:0; top:0; height: 250px; z-index: 111;  }
+ #pop:target {display:block;}  
+
+

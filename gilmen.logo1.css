@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* 브래드크럼브 */
+.breadcrumb .bread li {display:inline-block; margin: 10px 0px 0px 10px;}
+.breadcrumb .bread li a{color: #000;}
+
+
+/* 메인 */
+.content{width: 100%; height: 750px;}
+.content .login_h1{display:block; text-align: center; margin-top: 50px;}
+.content section{width: 600px; margin: 0 auto; margin-top: 150px; position:relative;}
+.content section .login_h3 {margin-bottom: 30px;}
+section .login_menu ul li{font-size: 14px; height: 40px; line-height: 30px;}
+section .login_menu ul li .top_login{border: 1px solid gray; padding: 20px;}
+section .login_menu ul li .top_login span{display:block;}
+section .login_menu ul li .top_login input{margin-left: 50px;}
+section .login_menu ul li .top_login span.auto_login{ margin-left: -50px;}
+section .login_menu ul li a.sign{position: absolute; top:80px; right:230px; padding: 14px 10px 13px 10px; background-color:black; color: #fff; border-radius: 5px;}
+section .login_menu ul li .bottom_login{padding: 10px;border-right: 1px solid gray; border-left: 1px solid gray; border-bottom: 1px solid gray; height: 130px; position: relative;}  
+section .login_menu ul li .bottom_login .getidpw {display:block; float:right;}
+section .login_menu ul li .bottom_login .getidpw a{display:inline-block; width: 200px;  margin-right: 10px;}
+section .login_menu ul li .bottom_login .getidpw a:first-of-type{background-color:black; color: #fff; border-radius: 5px; width: 150px; text-align: center;}
+section .login_menu ul li .bottom_login .getidpw a:last-of-type{background-color:black; color: #fff;  display:block; float:left; width: 70px; border-radius: 5px; width: 150px; text-align: center;}
+section .back_main{display:block; text-align: center; margin-top: 50px;}
+
